@@ -26,9 +26,6 @@ namespace ColorSpheres
             }
         }
 
-        public int GetTimesThrown()
-        {
-            return this.throwCount;
-        }
+        public int GetTimesThrown() => this.throwCount;
     }
 }
