@@ -35,5 +35,10 @@ namespace ColorSpheres
         {
                 return alpha;
         }
+
+        public int GetGray()
+        {
+                return (red + green + blue) / 3;
+        }
     }
 }
