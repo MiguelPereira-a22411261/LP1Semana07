@@ -16,6 +16,24 @@ namespace ColorSpheres
         }
          public Color(int red, int green, int blue) : this(red, green, blue, 255) { }
 
-         
+         public int GetRed()
+         {
+                return red;
+         }
+        
+        public int GetGreen()
+        {
+                return green;
+        }
+
+        public int GetBlue()
+        {
+                return blue;
+        }
+
+        public int GetAlpha()
+        {
+                return alpha;
+        }
     }
 }
